@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 100px;
+}
+
+header{
+    display: flex;
+    height: 100%;
+}
+
+body{
+    background-image : linear-gradient(to right, #242529 30%, #95B5CE 30%);
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.avatar{
+    display: flex;
+    float: left;
+    width: 33%;
+}
+
+.logo img{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 80px;
+    float: left;
+}
+
+.logo h3{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 45px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#avatar{
+    display: flex;
+    float: left;
+    margin-top: 100px;
+    width: auto;
+    margin-left: 80px;
+}
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    justify-content: center;
+}
+
+.about h1{
+    display: block;
+    line-height: 80px;
+    justify-content: left;
+}
+
+.about h2{
+    display: block;
+    justify-content: left;
+}
+
+.me{
+    transform: rotate(-10deg);
+    transform-origin: bottom left;
+    color: #95B5CE;
+    font-size: 30px;
+    display: flex;
+    float: left;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.projects{
+    background-color: #618098;
+}
+
+.projects img{
+    /* max-width: 200px; */
+    max-height: 300px;
+    margin-top: 5%;
+    margin-left: 1%;
+} 
+
+
+/* h font/size */
+p{
+    font-family: "Shadows Into Light";
+}
+
+h1{
+    font-family: "Playfair Display";
+    font-size: 70px;
+    color: #ffffff;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 500;
+
+    color: #ffffff;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 500;
+    color: #ffffff;
+}
